@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Temperature Converter</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <div id = "bg-container">
+    <h1>BMI Body calculator</h1>
+    <form id="converterForm">
+        <label for="weight">Enter Your weight</label>
+        <div>
+            <input type="number" id="weight" name="temperature" placeholder="Your weight" required>
+            <select id="unit1" name="unit" required> 
+            <option id="opt1" value="kg">Kg</option>
+            <option id="opt2" value="pound">Pound</option>  
+            <option id="opt3" value="stone">Stone</option> 
+            </select>
+        </div>
+        <label for="height">Enter Your Height</label>
+        <div>
+            <input type="number" id="height" name="height" placeholder="Your Height" required>
+            <select id="unit2" name="unit" required> 
+            <option id="opt1" value="feet">Feet</option>
+            <option id="opt2" value="cm">Cm</option>  
+            </select>
+        </div>
+        <button type="submit" id="button">Calculat</button>
+    </form>
+  </div>  
+</main>
+<script src="code.js"></script>
+</body>
+</html>
